@@ -1,13 +1,13 @@
-package tw.niq.example.structural.abstractfactory.demo;
+package tw.niq.example.creational.abstractfactory.demo;
 
 import org.springframework.stereotype.Component;
 
-import tw.niq.example.structural.abstractfactory.client.Client;
-import tw.niq.example.structural.abstractfactory.factory.AbstractFactory;
-import tw.niq.example.structural.abstractfactory.factory.ConcreteFactory1;
-import tw.niq.example.structural.abstractfactory.factory.ConcreteFactory2;
-import tw.niq.example.structural.abstractfactory.product.AbstractProductA;
-import tw.niq.example.structural.abstractfactory.product.AbstractProductB;
+import tw.niq.example.creational.abstractfactory.client.Client;
+import tw.niq.example.creational.abstractfactory.factory.AbstractFactory;
+import tw.niq.example.creational.abstractfactory.factory.ConcreteFactory1;
+import tw.niq.example.creational.abstractfactory.factory.ConcreteFactory2;
+import tw.niq.example.creational.abstractfactory.product.AbstractProductA;
+import tw.niq.example.creational.abstractfactory.product.AbstractProductB;
 
 @Component
 public class AbstractFactoryDemo {

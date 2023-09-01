@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
-import tw.niq.example.structural.abstractfactory.demo.AbstractFactoryDemo;
+import tw.niq.example.creational.abstractfactory.demo.AbstractFactoryDemo;
 
 @SpringBootApplication
 public class ExampleSpringDesignPatternsApplication {
